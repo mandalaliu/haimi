@@ -1,0 +1,383 @@
+html,body,.wrap{
+	height:100%;
+	width:100%;
+	overflow: hidden;
+	font-size:10px;
+}
+.wrap{
+	overflow-y:auto;
+	.header{
+		height:4.6rem;
+		display:-webkit-box;
+		padding:0 1.8rem;
+		box-sizing:border-box;
+		position:relative;
+		&:after{
+			content:'';
+			height:1px;
+			background:#eee;
+			width:1000%;
+			position:absolute;
+			bottom:0;
+			left:0;
+		}
+
+		aside{
+			&.logo{
+				width:5rem;
+				display:-webkit-box;
+				-webkit-box-orient:center;
+				-webkit-box-align:center;
+				img{
+					display:block;
+					width:100%;
+				}
+			}
+			
+			&.h_cen{
+				-webkit-box-flex:1;
+				margin-left:6.2rem;
+				.h_nav{
+					display:-webkit-box;
+					overflow:hidden;
+					a{
+						display:block;
+						font-size:1.4rem;
+						width:0;
+						-webkit-box-flex:1;
+						text-align:center;
+						line-height:4.6rem;
+
+						&.red{
+							color:#3b79b2;
+						}
+						&.green{
+							color:green;
+						}
+						&.blue{
+							color:#967677;
+						}
+						&.yellow{
+							color:yellow;
+						}
+					}
+				}
+			}
+
+			&.h_btn{
+				width:2.8rem;
+				display:-webkit-box;
+				-webkit-box-orient:center;
+				-webkit-box-align:center;
+				img{
+					display:block;
+					width:100%;
+				}
+			}
+		}
+	}
+	.main{
+		.tuwen{
+			width:100%;
+			display:-webkit-box;
+			-webkit-box-orient:vertical;
+			padding-left:1.8rem;
+			box-sizing:border-box;
+			.Tuwen_fen{
+				width:100%;
+				margin-bottom:2rem;
+				h3{
+					height:3.8rem;
+					font-size:1.5rem;
+					line-height:3.8rem;
+					font-weight:bold;
+					width:100%;
+					display:-webkit-box;
+					-webkit-box-pack:justify;
+					span,a{
+						display:block;
+					}
+					a{
+						font-size:1.4rem;
+						color:#0ab00e;
+						margin-right:1.8rem;
+					}
+				}
+				ul{					
+					li{
+						&>a{
+							display:block;
+							color:#000;
+							dl{
+								width:100%;
+								display:-webkit-box;
+								-webkit-box-orient:vertical;
+								-webkit-box-pack:center;
+								dt{
+									width:88%;
+									background:#eee;
+									img{
+										display:block;
+										width:100%;
+									}
+								}
+								dd{
+									text-align:center;
+									h4{
+										line-height:3rem;
+										font-size:1.5rem;
+										height:3rem;
+										word-break:break-all;
+									  display:-webkit-box;
+									  -webkit-line-clamp:1;
+									  -webkit-box-orient:vertical;
+									  overflow:hidden;
+									}
+									p{
+										width:100%;
+										display:-webkit-box;
+										-webkit-box-pack:center;
+										span{
+											display:block;
+
+											&:first-child{
+												display:-webkit-box;
+												i{
+													display:block;
+													width:1rem;
+													height:1rem;
+													background:url(../images/star1.png) no-repeat;
+													background-size:cover;
+													&.on{
+														background:url(../images/star2.png) no-repeat;
+														background-size:cover;
+													}
+												}
+											}
+											&:last-child{
+												color:#bfbfbf;
+												margin-left:1rem;
+											}
+										}
+									}
+								}
+							}
+						}
+						
+					}
+				}
+				.cont{
+					overflow-x: auto;
+					&::-webkit-scrollbar{
+				    	width:0;
+				    }
+					.liswiper{
+					    white-space: nowrap;
+					    font-size: 0;
+					    margin-left: -5px;
+						    
+						a{
+						    margin: 0 0 0.8rem 0.8rem;
+						    font-size: 1.4rem;
+						    display: inline-block;
+						    border-radius: 0.25rem;
+						    border: solid 1px;
+						    vertical-align: middle;
+						    height:5rem;
+						    padding:0 1.6rem;
+						    line-height:5rem;
+						    &.on{
+					    	    width: 100%;
+							    display: block;
+							    height: 1px;
+							    border: 0;
+							    margin: 0;
+						    }
+						}
+					}
+				}
+				.nav{
+					width:100%;
+					a{
+						float:left;
+						width:48%;
+						color:#63c578;
+						height:4rem;
+						line-height:4rem;
+						font-size:1.5rem;
+						border-top:1px solid #eee;
+						display:-webkit-box;
+						box-sizing:border-box;
+						-webkit-box-pack:justify;
+						-webkit-box-align:center;
+						span,i{
+							display:block;
+						}
+						i{
+							border-right:0.3rem solid #eee;
+							border-bottom:0.3rem solid #eee;
+							width:1.2rem;
+							height:1.2rem;
+							overflow:hidden;
+							margin-right:1.6rem;
+							-webkit-transform:rotate(-45deg);
+						}
+						&.lef{
+							border-left:1px solid #eee;
+							span{
+								padding-left:1.5rem;
+							}
+						}
+
+						&.borbot{
+							border-bottom:1px solid #eee;
+							    width: 48%;
+						}
+						&.botShow{
+							border-left:1px solid #eee;
+							border-bottom:1px solid #eee; width: 44%;
+							span{
+								
+								display:inline-block;
+							}
+						}
+					}
+				}
+			}
+		}
+		.fenlei{
+			margin-top:2.8rem;
+			&>nav{
+				padding:0 1.5rem ;
+				a{
+					display:inline-block;
+					width:50%;
+					text-align:center;
+					height:4.4rem;
+					line-height:4.4rem;
+					background:#f6f6f6;
+					margin-bottom:0.6rem;
+					border-right:0.6rem solid #fff;
+					font-size:1.4rem;
+					color:#000;
+				}
+			}
+		}
+	}
+	.footer{
+		width:100%;
+		display:-webkit-box;
+		-webkit-box-orient:vertical;
+		-webkit-box-align:center;
+		-webkit-box-pack:center;
+		margin-top:5rem;
+		dl{
+			display:-webkit-box;
+			dt{
+				width:4.4rem;
+
+				img{
+					display:block;
+					width:100%;
+				}
+			}
+			dd{
+				margin-left:1rem;
+				margin-bottom:2rem;
+				h3{
+					font-size:2rem;
+					font-weight:bold;
+					line-height:2.8rem;
+				}
+				p{
+					font-size:1.4rem;
+				}
+			}
+		}
+
+		&>p{
+			font-size:1.4rem;
+			color:#63c578;
+			line-height:3rem;
+		}
+
+	}
+}
+
+
+
+
+
+
+
+/**                                                                          
+	 *          .,:,,,                                        .::,,,::.          
+	 *        .::::,,;;,                                  .,;;:,,....:i:         
+	 *        :i,.::::,;i:.      ....,,:::::::::,....   .;i:,.  ......;i.        
+	 *        :;..:::;::::i;,,:::;:,,,,,,,,,,..,.,,:::iri:. .,:irsr:,.;i.        
+	 *        ;;..,::::;;;;ri,,,.                    ..,,:;s1s1ssrr;,.;r,        
+	 *        :;. ,::;ii;:,     . ...................     .;iirri;;;,,;i,        
+	 *        ,i. .;ri:.   ... ............................  .,,:;:,,,;i:        
+	 *        :s,.;r:... ....................................... .::;::s;        
+	 *        ,1r::. .............,,,.,,:,,........................,;iir;        
+	 *        ,s;...........     ..::.,;:,,.          ...............,;1s        
+	 *       :i,..,.              .,:,,::,.          .......... .......;1,       
+	 *      ir,....:rrssr;:,       ,,.,::.     .r5S9989398G95hr;. ....,.:s,      
+	 *     ;r,..,s9855513XHAG3i   .,,,,,,,.  ,S931,.,,.;s;s&BHHA8s.,..,..:r:     
+	 *    :r;..rGGh,  :SAG;;G@BS:.,,,,,,,,,.r83:      hHH1sXMBHHHM3..,,,,.ir.    
+	 *   ,si,.1GS,   sBMAAX&MBMB5,,,,,,:,,.:&8       3@HXHBMBHBBH#X,.,,,,,,rr    
+	 *   ;1:,,SH:   .A@&&B#&8H#BS,,,,,,,,,.,5XS,     3@MHABM&59M#As..,,,,:,is,   
+	 *  .rr,,,;9&1   hBHHBB&8AMGr,,,,,,,,,,,:h&&9s;   r9&BMHBHMB9:  . .,,,,;ri.  
+	 *  :1:....:5&XSi;r8BMBHHA9r:,......,,,,:ii19GG88899XHHH&GSr.      ...,:rs.  
+	 *  ;s.     .:sS8G8GG889hi.        ....,,:;:,.:irssrriii:,.        ...,,i1,  
+	 *  ;1,         ..,....,,isssi;,        .,,.                      ....,.i1,  
+	 *  ;h:               i9HHBMBBHAX9:         .                     ...,,,rs,  
+	 *  ,1i..            :A#MBBBBMHB##s                             ....,,,;si.  
+	 *  .r1,..        ,..;3BMBBBHBB#Bh.     ..                    ....,,,,,i1;   
+	 *   :h;..       .,..;,1XBMMMMBXs,.,, .. :: ,.               ....,,,,,,ss.   
+	 *    ih: ..    .;;;, ;;:s58A3i,..    ,. ,.:,,.             ...,,,,,:,s1,    
+	 *    .s1,....   .,;sh,  ,iSAXs;.    ,.  ,,.i85            ...,,,,,,:i1;     
+	 *     .rh: ...     rXG9XBBM#M#MHAX3hss13&&HHXr         .....,,,,,,,ih;      
+	 *      .s5: .....    i598X&&A&AAAAAA&XG851r:       ........,,,,:,,sh;       
+	 *      . ihr, ...  .         ..                    ........,,,,,;11:.       
+	 *         ,s1i. ...  ..,,,..,,,.,,.,,.,..       ........,,.,,.;s5i.         
+	 *          .:s1r,......................       ..............;shs,           
+	 *          . .:shr:.  ....                 ..............,ishs.             
+	 *              .,issr;,... ...........................,is1s;.               
+	 *                 .,is1si;:,....................,:;ir1sr;,                  
+	 *                    ..:isssssrrii;::::::;;iirsssssr;:..                    
+	 *                         .,::iiirsssssssssrri;;:.                      
+	 */   
+	
+
+
+
+	/**
+ * http://www.freebuf.com/
+ *           _.._        ,------------.
+ *        ,'      `.    ( We want you! )
+ *       /  __) __` \    `-,----------'
+ *      (  (`-`(-')  ) _.-'
+ *      /)  \  = /  (
+ *     /'    |--' .  \
+ *    (  ,---|  `-.)__`
+ *     )(  `-.,--'   _`-.
+ *    '/,'          (  Uu",
+ *     (_       ,    `/,-' )
+ *     `.__,  : `-'/  /`--'
+ *       |     `--'  |
+ *       `   `-._   /
+ *        \        (
+ *        /\ .      \.  freebuf
+ *       / |` \     ,-\
+ *      /  \| .)   /   \
+ *     ( ,'|\    ,'     :
+ *     | \,`.`--"/      }
+ *     `,'    \  |,'    /
+ *    / "-._   `-/      |
+ *    "-.   "-.,'|     ;
+ *   /        _/["---'""]
+ *  :        /  |"-     '
+ *  '           |      /
+ *              `      |
+ */

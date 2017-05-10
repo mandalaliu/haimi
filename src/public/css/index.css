@@ -1,0 +1,328 @@
+html,
+body,
+.wrap {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  font-size: 10px;
+}
+.wrap {
+  overflow-y: auto;
+}
+.wrap .header {
+  height: 4.6rem;
+  display: -webkit-box;
+  padding: 0 1.8rem;
+  box-sizing: border-box;
+  position: relative;
+}
+.wrap .header:after {
+  content: '';
+  height: 1px;
+  background: #eee;
+  width: 1000%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.wrap .header aside.logo {
+  width: 5rem;
+  display: -webkit-box;
+  -webkit-box-orient: center;
+  -webkit-box-align: center;
+}
+.wrap .header aside.logo img {
+  display: block;
+  width: 100%;
+}
+.wrap .header aside.h_cen {
+  -webkit-box-flex: 1;
+  margin-left: 6.2rem;
+}
+.wrap .header aside.h_cen .h_nav {
+  display: -webkit-box;
+  overflow: hidden;
+}
+.wrap .header aside.h_cen .h_nav a {
+  display: block;
+  font-size: 1.4rem;
+  width: 0;
+  -webkit-box-flex: 1;
+  text-align: center;
+  line-height: 4.6rem;
+}
+.wrap .header aside.h_cen .h_nav a.red {
+  color: #3b79b2;
+}
+.wrap .header aside.h_cen .h_nav a.green {
+  color: green;
+}
+.wrap .header aside.h_cen .h_nav a.blue {
+  color: #967677;
+}
+.wrap .header aside.h_cen .h_nav a.yellow {
+  color: yellow;
+}
+.wrap .header aside.h_btn {
+  width: 2.8rem;
+  display: -webkit-box;
+  -webkit-box-orient: center;
+  -webkit-box-align: center;
+}
+.wrap .header aside.h_btn img {
+  display: block;
+  width: 100%;
+}
+.wrap .main .tuwen {
+  width: 100%;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  padding-left: 1.8rem;
+  box-sizing: border-box;
+}
+.wrap .main .tuwen .Tuwen_fen {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.wrap .main .tuwen .Tuwen_fen h3 {
+  height: 3.8rem;
+  font-size: 1.5rem;
+  line-height: 3.8rem;
+  font-weight: bold;
+  width: 100%;
+  display: -webkit-box;
+  -webkit-box-pack: justify;
+}
+.wrap .main .tuwen .Tuwen_fen h3 span,
+.wrap .main .tuwen .Tuwen_fen h3 a {
+  display: block;
+}
+.wrap .main .tuwen .Tuwen_fen h3 a {
+  font-size: 1.4rem;
+  color: #0ab00e;
+  margin-right: 1.8rem;
+}
+.wrap .main .tuwen .Tuwen_fen ul li > a {
+  display: block;
+  color: #000;
+}
+.wrap .main .tuwen .Tuwen_fen ul li > a dl {
+  width: 100%;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-pack: center;
+}
+.wrap .main .tuwen .Tuwen_fen ul li > a dl dt {
+  width: 88%;
+  background: #eee;
+}
+.wrap .main .tuwen .Tuwen_fen ul li > a dl dt img {
+  display: block;
+  width: 100%;
+}
+.wrap .main .tuwen .Tuwen_fen ul li > a dl dd {
+  text-align: center;
+}
+.wrap .main .tuwen .Tuwen_fen ul li > a dl dd h4 {
+  line-height: 3rem;
+  font-size: 1.5rem;
+  height: 3rem;
+  word-break: break-all;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.wrap .main .tuwen .Tuwen_fen ul li > a dl dd p {
+  width: 100%;
+  display: -webkit-box;
+  -webkit-box-pack: center;
+}
+.wrap .main .tuwen .Tuwen_fen ul li > a dl dd p span {
+  display: block;
+}
+.wrap .main .tuwen .Tuwen_fen ul li > a dl dd p span:first-child {
+  display: -webkit-box;
+}
+.wrap .main .tuwen .Tuwen_fen ul li > a dl dd p span:first-child i {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  background: url(../images/star1.png) no-repeat;
+  background-size: cover;
+}
+.wrap .main .tuwen .Tuwen_fen ul li > a dl dd p span:first-child i.on {
+  background: url(../images/star2.png) no-repeat;
+  background-size: cover;
+}
+.wrap .main .tuwen .Tuwen_fen ul li > a dl dd p span:last-child {
+  color: #bfbfbf;
+  margin-left: 1rem;
+}
+.wrap .main .tuwen .Tuwen_fen .cont {
+  overflow-x: auto;
+}
+.wrap .main .tuwen .Tuwen_fen .cont::-webkit-scrollbar {
+  width: 0;
+}
+.wrap .main .tuwen .Tuwen_fen .cont .liswiper {
+  white-space: nowrap;
+  font-size: 0;
+  margin-left: -5px;
+}
+.wrap .main .tuwen .Tuwen_fen .cont .liswiper a {
+  margin: 0 0 0.8rem 0.8rem;
+  font-size: 1.4rem;
+  display: inline-block;
+  border-radius: 0.25rem;
+  border: solid 1px;
+  vertical-align: middle;
+  height: 5rem;
+  padding: 0 1.6rem;
+  line-height: 5rem;
+}
+.wrap .main .tuwen .Tuwen_fen .cont .liswiper a.on {
+  width: 100%;
+  display: block;
+  height: 1px;
+  border: 0;
+  margin: 0;
+}
+.wrap .main .tuwen .Tuwen_fen .nav {
+  width: 100%;
+}
+.wrap .main .tuwen .Tuwen_fen .nav a {
+  float: left;
+  width: 48%;
+  color: #63c578;
+  height: 4rem;
+  line-height: 4rem;
+  font-size: 1.5rem;
+  border-top: 1px solid #eee;
+  display: -webkit-box;
+  box-sizing: border-box;
+  -webkit-box-pack: justify;
+  -webkit-box-align: center;
+}
+.wrap .main .tuwen .Tuwen_fen .nav a span,
+.wrap .main .tuwen .Tuwen_fen .nav a i {
+  display: block;
+}
+.wrap .main .tuwen .Tuwen_fen .nav a i {
+  border-right: 0.3rem solid #eee;
+  border-bottom: 0.3rem solid #eee;
+  width: 1.2rem;
+  height: 1.2rem;
+  overflow: hidden;
+  margin-right: 1.6rem;
+  -webkit-transform: rotate(-45deg);
+}
+.wrap .main .tuwen .Tuwen_fen .nav a.lef {
+  border-left: 1px solid #eee;
+}
+.wrap .main .tuwen .Tuwen_fen .nav a.lef span {
+  padding-left: 1.5rem;
+}
+.wrap .main .tuwen .Tuwen_fen .nav a.borbot {
+  border-bottom: 1px solid #eee;
+  width: 48%;
+}
+.wrap .main .tuwen .Tuwen_fen .nav a.botShow {
+  border-left: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  width: 44%;
+}
+.wrap .main .tuwen .Tuwen_fen .nav a.botShow span {
+  display: inline-block;
+}
+.wrap .main .fenlei {
+  margin-top: 2.8rem;
+}
+.wrap .main .fenlei > nav {
+  padding: 0 1.5rem ;
+}
+.wrap .main .fenlei > nav a {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  height: 4.4rem;
+  line-height: 4.4rem;
+  background: #f6f6f6;
+  margin-bottom: 0.6rem;
+  border-right: 0.6rem solid #fff;
+  font-size: 1.4rem;
+  color: #000;
+}
+.wrap .footer {
+  width: 100%;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  margin-top: 5rem;
+}
+.wrap .footer dl {
+  display: -webkit-box;
+}
+.wrap .footer dl dt {
+  width: 4.4rem;
+}
+.wrap .footer dl dt img {
+  display: block;
+  width: 100%;
+}
+.wrap .footer dl dd {
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+}
+.wrap .footer dl dd h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 2.8rem;
+}
+.wrap .footer dl dd p {
+  font-size: 1.4rem;
+}
+.wrap .footer > p {
+  font-size: 1.4rem;
+  color: #63c578;
+  line-height: 3rem;
+}
+/**                                                                          
+	 *          .,:,,,                                        .::,,,::.          
+	 *        .::::,,;;,                                  .,;;:,,....:i:         
+	 *        :i,.::::,;i:.      ....,,:::::::::,....   .;i:,.  ......;i.        
+	 *        :;..:::;::::i;,,:::;:,,,,,,,,,,..,.,,:::iri:. .,:irsr:,.;i.        
+	 *        ;;..,::::;;;;ri,,,.                    ..,,:;s1s1ssrr;,.;r,        
+	 *        :;. ,::;ii;:,     . ...................     .;iirri;;;,,;i,        
+	 *        ,i. .;ri:.   ... ............................  .,,:;:,,,;i:        
+	 *        :s,.;r:... ....................................... .::;::s;        
+	 *        ,1r::. .............,,,.,,:,,........................,;iir;        
+	 *        ,s;...........     ..::.,;:,,.          ...............,;1s        
+	 *       :i,..,.              .,:,,::,.          .......... .......;1,       
+	 *      ir,....:rrssr;:,       ,,.,::.     .r5S9989398G95hr;. ....,.:s,      
+	 *     ;r,..,s9855513XHAG3i   .,,,,,,,.  ,S931,.,,.;s;s&BHHA8s.,..,..:r:     
+	 *    :r;..rGGh,  :SAG;;G@BS:.,,,,,,,,,.r83:      hHH1sXMBHHHM3..,,,,.ir.    
+	 *   ,si,.1GS,   sBMAAX&MBMB5,,,,,,:,,.:&8       3@HXHBMBHBBH#X,.,,,,,,rr    
+	 *   ;1:,,SH:   .A@&&B#&8H#BS,,,,,,,,,.,5XS,     3@MHABM&59M#As..,,,,:,is,   
+	 *  .rr,,,;9&1   hBHHBB&8AMGr,,,,,,,,,,,:h&&9s;   r9&BMHBHMB9:  . .,,,,;ri.  
+	 *  :1:....:5&XSi;r8BMBHHA9r:,......,,,,:ii19GG88899XHHH&GSr.      ...,:rs.  
+	 *  ;s.     .:sS8G8GG889hi.        ....,,:;:,.:irssrriii:,.        ...,,i1,  
+	 *  ;1,         ..,....,,isssi;,        .,,.                      ....,.i1,  
+	 *  ;h:               i9HHBMBBHAX9:         .                     ...,,,rs,  
+	 *  ,1i..            :A#MBBBBMHB##s                             ....,,,;si.  
+	 *  .r1,..        ,..;3BMBBBHBB#Bh.     ..                    ....,,,,,i1;   
+	 *   :h;..       .,..;,1XBMMMMBXs,.,, .. :: ,.               ....,,,,,,ss.   
+	 *    ih: ..    .;;;, ;;:s58A3i,..    ,. ,.:,,.             ...,,,,,:,s1,    
+	 *    .s1,....   .,;sh,  ,iSAXs;.    ,.  ,,.i85            ...,,,,,,:i1;     
+	 *     .rh: ...     rXG9XBBM#M#MHAX3hss13&&HHXr         .....,,,,,,,ih;      
+	 *      .s5: .....    i598X&&A&AAAAAA&XG851r:       ........,,,,:,,sh;       
+	 *      . ihr, ...  .         ..                    ........,,,,,;11:.       
+	 *         ,s1i. ...  ..,,,..,,,.,,.,,.,..       ........,,.,,.;s5i.         
+	 *          .:s1r,......................       ..............;shs,           
+	 *          . .:shr:.  ....                 ..............,ishs.             
+	 *              .,issr;,... ...........................,is1s;.               
+	 *                 .,is1si;:,....................,:;ir1sr;,                  
+	 *                    ..:isssssrrii;::::::;;iirsssssr;:..                    
+	 *                         .,::iiirsssssssssrri;;:.                      
+	 */
